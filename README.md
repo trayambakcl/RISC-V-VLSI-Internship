@@ -1,6 +1,7 @@
 # RISC-V-VLSI-Internship
 Wrote a simple c code and executed it using the gcc compiler to find the sum of integers till n
-'''              #include <stdio.h>
+```c
+#include <stdio.h>
         int main() {
             int i, sum = 0, n = 60;
             for (i = 1; i <= n; ++i) {
@@ -9,7 +10,7 @@ Wrote a simple c code and executed it using the gcc compiler to find the sum of 
             printf("Sum of number from 1 to %d is %d\n", n, sum);
             return 0;
         }
-        '''
+```
         
 <img width="960" alt="Screenshot 2024-12-22 202824" src="https://github.com/user-attachments/assets/55b37e90-9667-4d60-b122-dd7f7f9b53aa" />
 

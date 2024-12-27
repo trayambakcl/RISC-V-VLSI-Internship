@@ -46,6 +46,8 @@ again to check the contents we use the command.
 
 
 ##      hit q to quit and the run the command again :  
+The contents of the Stack Pointer(SP) register was observed. The stack pointer register(SP) instruction was run and the contents of the SP were looked at again.
+
 
            spike -d pk sum1ton.o
 
@@ -56,7 +58,6 @@ again to check the contents we use the command.
       reg 0 sp
 
  <img width="630" alt="newnew3" src="https://github.com/user-attachments/assets/dd532831-16a6-4a32-b27d-29ebf80ac8d0" />
-
 
 then one can notice that the value got reduced by 10 hexadecimal or by 16 in decimal
 

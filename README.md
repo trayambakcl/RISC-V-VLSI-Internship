@@ -63,6 +63,50 @@ then one can notice that the value got reduced by 10 hexadecimal or by 16 in dec
 
 #### NOTE :  addi stands for add immediate it’s an instruction in the RISC-V assembly language that adds a constant number to a register.
 
+## compiled  c code for fiding fibonacci sequence upto n terms
+<img width="827" alt="Screenshot 2024-12-27 214341" src="https://github.com/user-attachments/assets/0648e912-d5d8-42f3-9a37-17c620060d0f" />
+```
+#include <stdio.h>
+
+void printFibonacci(int n) {
+    int first = 0, second = 1, next;
+
+    if (n < 1) {
+        printf("Please enter a positive integer.\n");
+        return;
+    }
+
+    printf("Fibonacci Sequence for %d terms:\n", n);
+
+    for (int i = 1; i <= n; i++) {
+        if (i == 1) {
+            printf("%d ", first);
+            continue;
+        }
+        if (i == 2) {
+            printf("%d ", second);
+            continue;
+        }
+        next = first + second;
+        first = second;
+        second = next;
+        printf("%d ", next);
+    }
+    printf("\n");
+}
+
+int main() {
+    int n;
+
+    printf("Enter the number of terms in the Fibonacci sequence: ");
+    scanf("%d", &n);
+
+    printFibonacci(n);
+
+    return 0;
+}
+```
+
 
 
 

@@ -66,6 +66,8 @@ then one can notice that the value got reduced by 10 hexadecimal or by 16 in dec
 ## compiled  c code for fiding fibonacci sequence upto n terms
 <img width="827" alt="Screenshot 2024-12-27 214341" src="https://github.com/user-attachments/assets/0648e912-d5d8-42f3-9a37-17c620060d0f" />
 ```
+
+
 #include <stdio.h>
 
 void printFibonacci(int n) {
@@ -105,6 +107,8 @@ int main() {
 
     return 0;
 }
+
+
 ```
 
 
